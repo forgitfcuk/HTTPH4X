@@ -23,7 +23,7 @@ let COOKIES = undefined;
 let POSTDATA = undefined;
 
 if (process.argv.length < 8){
-    console.log('HTTP/2 (Support HTTPS Only) | MOHAMMAD AHAD ');
+    console.log('HTTP/2 (Support HTTPS Only) | ANONYMOUS H4X');
     console.log('node ' + file + ' <MODE> <host> <proxies> <duration> <rate> <threads> (options cookie="" postdata="" randomstring="" headerdata="")');
     //console.log(process.argv.length);
     process.exit(0);
@@ -88,7 +88,7 @@ if (headerbuilders !== undefined){
             cluster.fork();
             console.log(`(!) Threads ${i} Started Attacking`);
         }
-        console.log("(!) Now Attacked | Method By Ahad Stresser")
+        console.log("(!) Now Attacked | Method By ANONYMOUS H4X")
     
         setTimeout(() => {
             process.exit(1);
